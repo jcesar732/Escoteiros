@@ -8,3 +8,30 @@ body {
   margin: 0;
   background-image: url("paper.jpg");
 }
+<style>
+.efeito img{
+ border: #191900 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.5; /*esta linha é a que escurece a imagem*/
+ } 
+.efeito img:hover{
+ border: #191919 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.5; /*esta linha é a que clareia a imagem*/
+ }
+</style>
+.efeito{
+    width: 33.33333333%;
+  }
+.botao1 {
+background-image: url("escot.png");
+}
+a:link {
+   color: black;
+}
+.btn-botafogo{
+  color: #EE00EE;
+  background-color: #DAA520;
+}
+.btn-sencond {
+  color: black;
+  background-color: #00FF00;
+}
