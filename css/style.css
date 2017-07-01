@@ -1,0 +1,115 @@
+
+html,body {
+  height:100%; font-family: 'Lato', sans-serif; 
+  }
+* { 
+padding:0; margin:0; 
+}
+/*** Rolagem da Horizontal da PĆ�gina***/
+::-webkit-scrollbar {background:#848484;width:10px; height:6px;}
+::-webkit-scrollbar-thumb {background:#848484; box-shadow:0px 0px 10px  inset;}
+::-webkit-scrollbar-corner {background:#848484; box-shadow:0px 0px 10px  inset;}
+::-webkit-scrollbar-track {background:white;}
+
+/*DIV DE TODO O MATERIAL*/
+.tudo {
+   min-height:100%;
+   position:relative;
+}
+
+/*RETIRAR LINHAS DOS LINKS*/
+a:link 
+{ 
+ text-decoration:none;  
+} 
+
+/*SISTEMA DE BUSCA*/
+.busca{
+    text-align: center;
+}
+textarea{
+  width:400px; height:200px;
+  border:1px solid silver;
+  Text-align:center;
+  }
+  body,h2{
+    Text-align:center;
+  }
+  /*textarea*/
+  textarea {
+  resize:none;
+  outline:none;
+  overflow:auto;
+  }
+
+/*busca*/
+/*DESAPARECE*/
+#problemas{
+  height:29px;
+  text-align:center;
+  background:#013ADF;
+  color:white;
+  width: auto;
+  line-height:200%;/*EspaĆ§amento de cima*/
+}
+.absolute{
+  position:relative;
+}
+#rodape {
+   position:static;
+   bottom:10;
+   width:auto;
+   height:60px;   /* Mesma Altura do RodapĆĀ© */
+   background:#2E2E2E;
+   text-align:center;
+   position:relative;
+}
+.menut{
+    
+  text-align: center;
+  color: gray;
+  font-size: 15px;  
+  font-family: "Microsoft Sans Serif";
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+  /*carrossel*/
+  .myCarousel > .item > img,
+  .myCarousel > .item > a > img {
+    width: 50%;
+    margin: auto;
+  }
+  
+ /*LISTA DE ARQUIVOS-> para analises*/ 
+.ohloko {height: 300px;width: auto; border: 10px; border: thin solid black; float: left;}
+.ohloko2 {height: 300px;width: auto; border: 10px; border: thin solid white;}
+
+/*MENU ALINHAMENTO*/
+#menu{
+  top:10px;
+  text-align: center;
+}
