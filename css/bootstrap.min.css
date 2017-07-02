@@ -39,3 +39,7 @@ a:link {
 	background-color: #462727;
 	width: 75%;
 }
+.carousel-caption {
+      position:absolute;
+      top:-10%;
+}
