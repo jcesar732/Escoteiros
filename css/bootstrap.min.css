@@ -35,3 +35,7 @@ a:link {
   color: black;
   background-color: #00FF00;
 }
+.navbar-inverse{
+	background-color: #462727;
+	width: 75%;
+}
