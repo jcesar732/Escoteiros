@@ -97,7 +97,7 @@ a:hover {
 }
 /* Configura o fundo do menu principal quando com mouse hover */
 .menu > .menu-list > li:hover a {
-  background: #321;
+  background: #344;
 }
 /* Mostra o submenu no evento de mouse hover */
 .menu > .menu-list > li:hover > .sub-menu {
@@ -116,6 +116,7 @@ a:hover {
 /* Configura os links do submenu */
 .menu > .menu-list > li > .sub-menu > li > a {
  padding: 10px 20px;
+ background: #324;
 }
 /* Clearfix para o menu */
 .menu:after {
