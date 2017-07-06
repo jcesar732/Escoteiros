@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-image: url("paper.jpg");
+}
+
+a:link {
+   color: black;
+}
+.btn-botafogo{
+  color: #EE00EE;
+  background-color: #DAA520;
+}
+.btn-sencond {
+  color: black;
+  background-color: #00FF00;
+}
+.btn1{
+  color: #191970;
+}
+.navbar-inverse{
+  background-color: #000;
+  width: 33%;
+}
+.menulado{
+  float: left;
+  margin-left: 50%;
+}
+.myCarousel{
+  width: 100%;
+  height: 220px;
+}
+.carousel-caption {
+      position: absolute;
+      top:-8%;
+}
+.escot{
+  width: 99%;
+  letter-spacing: 100px;
+}
+/*tirar linha dos links*/
+a:link 
+{
+ text-decoration: none;  
+ color: #000;  
+} 
+a:hover {
+  color: #044F56;
+}
+/* Reset CSS */
+*, *:after, *:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.menu{
+  background: #000;
+}
+/* Remove as bolinhas do lado das listas */
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+/* Configura todos os links do nosso menu */
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing:0.3em;
+}
+/* Faz os <li>s ficarem na horizontal */
+.menu > .menu-list > li{
+  float: left;
+  position: relative;
+}
+/* Configura os links do menu principal */
+.menu > .menu-list > li > a {
+  padding: 18px;
+  margin: 0 5px;
+  background: #000;
+}
+/* Configura o fundo do menu principal quando com mouse hover */
+.menu > .menu-list > li:hover a {
+  background: #344;
+}
+/* Mostra o submenu no evento de mouse hover */
+.menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+}
+/* Configura o estilo do submenu */
+.menu > .menu-list > li > .sub-menu {
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  background: blue;
+  min-width: 200px;
+  z-index: 1000;
+  display: none;
+}
+/* Configura os links do submenu */
+.menu > .menu-list > li > .sub-menu > li > a {
+ padding: 10px 20px;
+ background: #324;
+}
+/* Clearfix para o menu */
+.menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/*tttttttttttttttttttttttttttttttttttttttttt*/
+.view3
+{
+  width: 90%;
+}
+.view2
+{
+  width: 94%;
+  margin-left: 4%;
+}
+.view2 img{
+  margin-left: 4%;
+}
+ <style>
+.view2 img{
+  border: #191900 solid 1px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 0.5; /*esta linha é a que escurece a imagem*/
+}
+.view2 img:hover{
+  border: #191919 solid 3px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 0.9; /*esta linha é a que clareia a imagem*/
+ }
+ /*tttttttttttttttttttttttttttttttttttttttttt*/
+.viewEvent2{
+  width: 49%;
+  float: left;
+}
+.viewEvent3{
+  width: 49%;
+  float: right;
+  margin-right: 2%;
+}
+ <style>
+.viewEvent2 img{
+  border: #191900 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 0.5; /*esta linha é a que escurece a imagem*/
+}
+.viewEvent2 img:hover{
+  border: #191919 solid 5px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 1.5; /*esta linha é a que clareia a imagem*/
+ }</style>
+ <style>
+.viewEvent3 img{
+  border: #191900 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 0.5; /*esta linha é a que escurece a imagem*/
+}
+.viewEvent3 img:hover{
+  border: #191919 solid 5px; /*esta linha aplica uma borda cor preta na imagem*/
+  opacity: 1.5; /*esta linha é a que clareia a imagem*/
+ }</style>
+
