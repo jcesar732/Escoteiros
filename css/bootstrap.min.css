@@ -8,9 +8,6 @@ body {
   margin: 0;
   background-image: url("paper.jpg");
 }
-.botao1 {
-background-image: url("escot.png");
-}
 a:link {
    color: black;
 }
@@ -25,10 +22,7 @@ a:link {
 .btn1{
 	color: #191970;
 }
-.navbar-inverse{
-	background-color: #000;
-	width: 80%;
-}
+
 .carousel-caption {
       position: absolute;
       top:-8%;
@@ -45,6 +39,10 @@ a:link
 } 
 a:hover {
 	color: #044F56;
+}
+.navbar-inverse{
+	background-color: #000;
+	width: 80%;
 }
 /* Reset CSS */
 *, *:after, *:before{
@@ -138,6 +136,9 @@ a:hover {
  	opacity: 0.9; /*esta linha é a que clareia a imagem*/
  }
  /*tttttttttttttttttttttttttttttttttttttttttt*/
+.viewEvent{
+	margin-left: 2%;
+}
 .viewEvent2{
 	width: 49%;
 	float: left;
@@ -147,22 +148,80 @@ a:hover {
 	float: right;
 	margin-right: 2%;
 }
- <style>
-.viewEvent2 img{
-	border: #191900 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
- 	opacity: 0.5; /*esta linha é a que escurece a imagem*/
-}
-.viewEvent2 img:hover{
- 	border: #191919 solid 5px; /*esta linha aplica uma borda cor preta na imagem*/
- 	opacity: 1.5; /*esta linha é a que clareia a imagem*/
- }</style>
- <style>
-.viewEvent3 img{
-	border: #191900 solid 2px; /*esta linha aplica uma borda cor preta na imagem*/
- 	opacity: 0.5; /*esta linha é a que escurece a imagem*/
-}
-.viewEvent3 img:hover{
- 	border: #191919 solid 5px; /*esta linha aplica uma borda cor preta na imagem*/
- 	opacity: 1.5; /*esta linha é a que clareia a imagem*/
- }</style>
 
+.demo-3 {
+    position:relative;
+    width:600px;
+    height:300px;
+    overflow:hidden;
+    float:left;
+    margin-left:2%;
+}
+.demo-3 figure {
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    margin-left: 0px
+}
+.demo-3 figure img {
+    display:block;
+    position:relative;
+    z-index:10;
+    margin:-15px 0
+}
+.demo-3 figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.demo-3 figure h2 {
+    font-family:'Lato';
+    color:#fff;
+    font-size:20px;
+    text-align:left
+}
+.demo-3 figure p {
+    display:block;
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    text-align:left
+}
+.demo-3 figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:29px 44px;
+    background-color:rgba(26,76,110,0.5);
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
