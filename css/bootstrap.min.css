@@ -21,15 +21,19 @@ a:link {
 }
 .btn1{
 	color: #191970;
+	font-size: 18px;
 }
-
 .carousel-caption {
       position: absolute;
-      top:-8%;
+      top: 5%;
+}
+.myCarousel{
+	position: middle;
+	top: 120px;
 }
 .escot{
 	width: 99%;
-	letter-spacing: 100px;
+	letter-spacing: 220px;
 }
 /*tirar linha dos links*/
 a:link 
@@ -42,7 +46,7 @@ a:hover {
 }
 .navbar-inverse{
 	background-color: #000;
-	width: 80%;
+	width: 100%;
 }
 /* Reset CSS */
 *, *:after, *:before{
@@ -62,13 +66,13 @@ a:hover {
 }
 /* Configura todos os links do nosso menu */
 .menu a{
-  color: #fff;
+  color: #58FE49;
   text-decoration: none;
   display: block;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 10px;
-  letter-spacing:0.3em;
+  font-size: 20px;
+  letter-spacing:0.4em;
 }
 /* Faz os <li>s ficarem na horizontal */
 .menu > .menu-list > li{
@@ -114,17 +118,23 @@ a:hover {
   height: 0;
 }
 /*tttttttttttttttttttttttttttttttttttttttttt*/
+
 .view3
 {
-	width: 90%;
+	
 }
 .view2
 {
-	width: 94%;
-	margin-left: 4%;
+	background-color: #58FE49;
+	padding: 70px;
+	width: 100%;
 }
 .view2 img{
-	margin-left: 4%;
+	margin-left: 8%;
+	margin-top: 3%;
+	-webkit-border-radius: 1em;  
+    -moz-border-radius: 1em;  
+    border-radius: 1em;  
 }
  <style>
 .view2 img{
@@ -137,7 +147,7 @@ a:hover {
  }
  /*tttttttttttttttttttttttttttttttttttttttttt*/
 .viewEvent{
-	margin-left: 2%;
+	margin-left: 10%;
 }
 .viewEvent2{
 	width: 49%;
@@ -191,14 +201,14 @@ a:hover {
     line-height:18px;
     margin:0;
     color:#fff;
-    text-align:left
+    text-align:left;
 }
 .demo-3 figure figcaption {
     top:0;
     left:0;
     width:100%;
     height:100%;
-    padding:29px 44px;
+    padding:50px 50px;
     background-color:rgba(26,76,110,0.5);
     text-align:center;
     backface-visibility:hidden;
@@ -224,4 +234,39 @@ a:hover {
     -webkit-transform:rotateY(0);
     -moz-transform:rotateY(0);
     transform:rotateY(0)
+}
+.fim {
+		background-color: white;
+		width: 100%;
+		height: 380px;
+}
+.escotfim{
+	position: left;
+	letter-spacing: 180px;
+		padding-top: 2.5%;
+
+}
+
+.fim2 h3{
+	margin-left: 12%; 
+	margin-right: 10%;
+}
+
+.fotos .gta{/*esta linha é a que clareia a imagem*/
+	opacity:  0.9;
+}
+
+.fotos .gta:hover{/*esta linha é a que clareia a imagem*/
+	opacity:  1.0;
+ 	-webkit-box-shadow: 0 0 100px rgba(0,254,238,.6), inset 0 0 100px rgba(255,255,255,1);  
+    -moz-box-shadow: 0 0 100px rgba(55,55,55,.6), inset 0 0 20px rgba(255,255,255,1);  
+}
+.fotos{
+	background-color: orange;
+	padding: 60px;
+	letter-spacing: 30px;
+}
+.fotos h1{
+	letter-spacing: 0px;
+	color: white;
 }
