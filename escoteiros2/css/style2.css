@@ -27,6 +27,15 @@ a:link {
 	background-color: transparent;
 	height: 500px;
 }
+a.videpage:link
+{
+	text-decoration: none;
+}
+.videpage h2
+{
+ text-decoration: none;  
+ color: #4F4F4F;  
+} 
 .videpage{
 	float: right;
 	position: relative;
@@ -68,7 +77,13 @@ a:link {
 	-webkit-border-radius: 1em;  
     border-radius: 2em; 
     margin-left: 5%;
+    opacity: 0.9;
 }
+.titulovide img:hover{
+	opacity: 1.0;
+	border: #fff solid 2px;
+}
+
 .todopage{
 	float: right;
 	position: relative;
@@ -85,6 +100,8 @@ a:link {
 	position: relative;
 	left: -2%;
 }
+.carousel-caption{
+}
 
 .corpo{
 	float: right;
@@ -93,6 +110,57 @@ a:link {
 	width: 90%;
 	background-color: transparent;
 	height: 500px;
+}
+
+.fotos .gta{/*esta linha é a que clareia a imagem*/
+	opacity:  0.9;
+	width: 72%;
+	height: 370px;
+	-webkit-border-radius: 1em;  
+    -moz-border-radius: 1em;  
+    border-radius: 5em; 
+}
+
+.fotos .gta:hover{/*esta linha é a que clareia a imagem*/
+	opacity:  1.0;
+}
+
+.fotos{
+	background-color: orange;
+	position: relative;
+	float: left;
+	top: 300px;
+	
+	letter-spacing: 30px;
+	height: 900px;
+    width: 50%; 
+}
+.fotos h1{
+	letter-spacing: 0px;
+	color: white;
+	top: -5%;
+}
+.fotos h4{
+	letter-spacing: 0px;
+	color: white;
+}
+.fim {
+		float: left;
+		position: relative;
+		top: 300px;
+		background-color: white;
+		width: 100%;
+		height: 380px;
+}
+.escotfim{
+	position: left;
+	letter-spacing: 180px;
+		padding-top: 2.5%;
+
+}
+.fim2 h3{
+	margin-left: 12%; 
+	margin-right: 10%;
 }
 /*                   *//*                   *//*                   */
 /*                   *//*                   *//*                   */
