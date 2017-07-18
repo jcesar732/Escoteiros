@@ -6,17 +6,294 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 body {
   margin: 0;
-  background-color: blue;
+  background-image: url("paper.jpg");
 }
-.red{
-	width: 40%;
-	height: 400px;
-	background-color: red;
+a:link {
+   color: black;
+}
+.cima{
+	width: 100%;
+	height: 200px;
+}
+.cima img{
+	width: 100%;
+	height: 200px
+}
+.menupage{
+	float: left;
+	position: relative;
+	left: 5%;
+	background-color: transparent;
+	height: 500px;
+}
+.container{
+	position: relative;
+	left: 0%;
+}
+a.videpage:link
+{
+	text-decoration: none;
+}
+.videpage h2
+{
+ text-decoration: none;  
+ color: #4F4F4F;  
+} 
+.videpage{
+	float: right;
+	position: relative;
+	width: 50%;
+	right: -1%;
+	background-color: yellow;
+	height: 745px;
+	-webkit-border-radius: 1em;  
+    -moz-border-radius: 1em;  
+    border-radius: 2em; 
+}
+.titulovide
+{
+	width: 100%;
+	height: 170px;
+	background-color: transparent;
+	float: left;
+	left: 10%;
+	right: 1%;
+	-webkit-border-radius: 1em;  
+    border-radius: 2em; 
+}
+.titulovide h3
+{
+	width: 65%;
+	float: right;
+	position: relative;
+	top: -20px;
+
+}
+.titulovide h4
+{
+	width: 65%;
+	float: right;
+	position: relative;
+	top: -90px;
+}
+.titulovide img{
+	-webkit-border-radius: 1em;  
+    border-radius: 2em; 
+    margin-left: 5%;
+    opacity: 0.9;
+}
+.titulovide img:hover{
+	opacity: 1.0;
+	border: #fff solid 2px;
 }
 
-@media screen and (max-width: 1300px) {
-    .red {
-        width: 95%;
-    }
+.todopage{
+	float: right;
+	position: relative;
+	width: 30%;
+	left: 5%;
+	background-color: white;
+	height: 745px;
+	-webkit-border-radius: 1em;  
+    -moz-border-radius: 1em;  
+    border-radius: 2em; 
+}
+.todopage iframe{
+	float: right;
+	position: relative;
+	left: -2%;
+}
+.carousel-caption{
+}
 
+.corpo{
+	float: right;
+	position: relative;
+	right: 10%;
+	width: 90%;
+	background-color: transparent;
+	height: 500px;
+}
+
+.fotos .gta{/*esta linha é a que clareia a imagem*/
+	opacity:  0.9;
+	width: 72%;
+	height: 370px;
+	-webkit-border-radius: 1em;  
+    -moz-border-radius: 1em;  
+    border-radius: 5em; 
+}
+
+.fotos .gta:hover{/*esta linha é a que clareia a imagem*/
+	opacity:  1.0;
+}
+
+.fotos{
+	background-color: orange;
+	position: relative;
+	float: left;
+	top: 245px;
+	
+	letter-spacing: 30px;
+	height: 900px;
+    width: 50%; 
+}
+.fotos h1{
+	letter-spacing: 0px;
+	color: white;
+	top: -5%;
+}
+.fotos h4{
+	letter-spacing: 0px;
+	color: white;
+}
+.fim {
+		float: left;		position: relative;		top: 245px;
+		background-color: white;	width: 50%;	height: 200px;
+		letter-spacing: 150px; padding: 45px; padding-top: 35px;
+		padding-left: 150px;
+}
+.fim2{
+	float: right;		width: 50%;			position: relative;	
+	background-color: white;	top: 245px;	height: 200px;	
+	padding-left: 150px;
+}
+.fim2 h3{
+	padding: 30px;		padding-top: 3px;  margin-left: 5%; 
+	font-size: 22px;
+}
+/*                   *//*                   *//*                   */
+/*                   *//*                   *//*                   */
+/*                   *//*                   *//*                   */
+/*                   *//*                   *//*                   */
+.sidebar-nav {
+	float: left;
+    position: relative;
+    top: 0px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    position: relative; 
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.sidebar-nav li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 3px;
+    background-color: #1c1c1c;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+.sidebar-nav li:first-child a {
+	color: red;
+    background-color: #1a1a1a;
+}
+.sidebar-nav li:nth-child(2):before {
+    background-color: #ec1b5a;   
+}
+.sidebar-nav li:nth-child(3):before {
+    background-color: #79aefe;   
+}
+.sidebar-nav li:nth-child(4):before {
+    background-color: #314190;   
+}
+.sidebar-nav li:nth-child(5):before {
+    background-color: #279636;   
+}
+.sidebar-nav li:nth-child(6):before {
+    background-color: #7d5d81;   
+}
+.sidebar-nav li:nth-child(7):before {
+    background-color: #ead24c;   
+}
+.sidebar-nav li:nth-child(8):before {
+    background-color: #2d2366;   
+}
+.sidebar-nav li:nth-child(9):before {
+    background-color: #35acdf;   
+}
+.sidebar-nav li:nth-child(10):before {
+    background-color: #2d2366;   
+}
+.sidebar-nav li:nth-child(11):before {
+    background-color: #79aefe;   
+}
+.sidebar-nav li:nth-child(12):before {
+    background-color: #2d2366;   
+}
+.sidebar-nav li:nth-child(13):before {
+    background-color: #35acdf;   
+}
+.sidebar-nav li:nth-child(14):before {
+    background-color: #2d2366;   
+}
+.sidebar-nav li:nth-child(15):before {
+    background-color: #279636;   
+}
+.sidebar-nav li:nth-child(16):before {
+    background-color: #35acdf;   
+}
+.sidebar-nav li:nth-child(17):before {
+    background-color: #ec1b5a;   
+}
+.sidebar-nav li:nth-child(18):before {
+    background-color: #35acdf;   
+}
+.sidebar-nav li:nth-child(19):before {
+    background-color: #35acdf;   
+}
+.sidebar-nav li:hover:before,
+.sidebar-nav li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px; 
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus,
+.sidebar-nav li.open a:hover,
+.sidebar-nav li.open a:active,
+.sidebar-nav li.open a:focus{
+    text-decoration: none; 
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 20px;
+    line-height: 44px;
+}
+.sidebar-nav .dropdown-menu {
+    position: relative;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
